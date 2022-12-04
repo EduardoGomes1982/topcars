@@ -1,0 +1,33 @@
+.dsct-searchbar {
+    display: flex;
+    height: 40px;
+}
+
+.dsct-searchbar input {
+    font-size: 14px;
+    border: 1px solid var(--dsct-color-border-primary);
+}
+
+#txt-searchbar {
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px 0px 0px 5px;
+    border-right: none;
+}
+
+#txt-searchbar::placeholder {
+    color: var(--dsct-color-text-tertiary);
+}
+
+#txt-searchbar:focus {
+    outline: none;
+}
+
+#btn-searchbar {
+    width: 77px;
+    color: var(--dsct-color-buton-text);
+    background-color: var(--dsct-color-bg-button);
+    border-radius: 0px 5px 5px 0px;
+    border-left: none;
+    font-weight: 700;
+}

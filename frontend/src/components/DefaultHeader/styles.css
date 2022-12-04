@@ -1,0 +1,11 @@
+.dsct-default-header {
+    background-color: var(--dsct-color-bg-secondary);
+    padding: 21px 20px;
+    display: flex;
+    align-items: center;
+}
+
+nav h1 {
+    color: var(--dsct-color-title-primary);
+    font-size: 24px;
+}

@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+:root {
+  --dsct-color-bg-primary: #FFFFFF;
+  --dsct-color-bg-secondary: #F78B00;
+  --dsct-color-bg-tertiary: #EDEDED;
+
+  --dsct-color-border-primary: #A7A7A7;
+
+  --dsct-color-bg-button: #00285F;
+  --dsct-color-title-primary: var(--dsct-color-bg-button);
+
+  --dsct-color-buton-text: var(--dsct-color-bg-primary);
+
+  --dsct-color-text-primary: #00000;
+  --dsct-color-text-secundary: #585858;
+  --dsct-color-text-tertiary: var(--dsct-color-border-primary);
+  --dsct-color-text-quaternary: var(--dsct-color-bg-primary);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.dsct-container {
+  width: 100%;
+  max-width: 980px;
+  margin: 0px auto;
+}
+
+#searchbar-section {
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+button, input[type=button] {
+  cursor: pointer;
+}
