@@ -29,6 +29,7 @@
 .dsct-card-container button {
     font-size: 14px;
     font-weight: 700;
+    text-transform: uppercase;
     color: var(--dsct-color-text-quaternary);
     background-color: var(--dsct-color-bg-button);
     width: 100%;
