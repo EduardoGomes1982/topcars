@@ -1,5 +1,6 @@
-import "./styles.css";
 import carImg from "../../assets/car.png";
+import CardButton from "../CardButton";
+import "./styles.css";
 
 export default function CatalogCard() {
     return (
@@ -7,7 +8,7 @@ export default function CatalogCard() {
             <img src={carImg} alt="CarroTop" />
             <h3>Audi Supra GT</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, nisi</p>
-            <button id="btn-bay" key="btn-bay" type="submit">Comprar</button>
+            <CardButton />
         </div>
     );
 }
